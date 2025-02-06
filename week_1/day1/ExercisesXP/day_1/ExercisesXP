@@ -1,0 +1,63 @@
+#1
+#print ('hello world' * 4)
+
+#2
+#print ((99^3)*8)
+
+#3
+#1.false
+#2.True
+#3.false
+#4.false
+
+#4
+#computer_brand = 'lenovo'
+#print ('i have a ' + computer_brand + 'computer')
+
+#5
+#name = 'Rony'
+#age ='22'
+#shoe_size = '43'
+#info = 'hello my name is ' + name + ' im ' + age + " yers old. and if you don't know what gift you can give me for my bithday i will give you a hint my shoe_size is " + shoe_size + ' . good luck'
+#print (info)
+
+#6
+#a = '50'
+#b = '10'
+#if a < b:
+    #print ('you are dumb')
+#elif a == b:
+    #print ('go back to school')
+#elif a> b:
+    #print ('hello world')
+
+#7
+#b = '12'
+#input ('waht is 6+6?')
+#if input < b and b < input:
+    #print ('no')
+#elif input == a:
+    #print ('good job!')
+
+#8
+#name = input('what is your name?')
+#if name == 'Rony':
+    #print (niceeee name my brother)
+
+#elif name:
+    #print ('who the fuck are you?')
+
+
+
+
+
+#9
+#height = '145'
+
+#if height > '145':
+    #print ('you need to grow some more to ride.')
+#elif height == '145' and height < '145':
+    #print ('you are tall enough to ride.')
+
+#input ('hello i will need to know what is your height in cm?')
+    

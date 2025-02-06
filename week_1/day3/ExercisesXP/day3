@@ -1,0 +1,55 @@
+#1
+#keys = ['ten', 'twenty', 'thirty']
+#values = [10, 20, 30]
+#dictionary = dict(zip(keys, values))
+#print(dictionary)
+
+#2
+#age = ()
+#if age < 3:
+ #   price = 0
+#elif 3 < age < 12:
+ #   price = 10
+#elif 12 < age:
+ #   price = 15
+#family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
+
+#3
+#brand = {
+    #"name": "Zara",
+    #"creation_date": 1975,
+    #"creator_name": "Amancio Ortega Gaona",
+    #"type_of_clothes": ["men", "women", "children", "home"],
+    #"international_competitors": ["Gap", "H&M", "Benetton"],
+    #"number_stores": 7000,
+    #"major_color": {
+       # "France": "blue",
+      #  "Spain": "red",
+      #  "US": ["pink", "green"]
+  #  }
+#}
+#brand["number_stores"] = 2
+#print(f"Zara offers clothing for {', '.join(brand['type_of_clothes'])}.")
+#brand["country_creation"] = "Spain"
+#if "international_competitors" in brand:
+ #   brand["international_competitors"].append("Desigual")
+#del brand["creation_date"]
+#print("Last international competitor:", brand["international_competitors"][-1])
+#print("Major colors in the US:", ", ".join(brand["major_color"]["US"]))
+#print("Total key-value pairs:", len(brand))
+#print("Keys in brand dictionary:", list(brand.keys()))
+#more_on_zara = {
+ #   "creation_date": 1975,
+  ##  "number_stores": 10000
+#}
+#brand.update(more_on_zara)
+#print("Updated number of stores:", brand["number_stores"])
+
+#4
+#answer = input('say somthing')
+#letter_indices = {}
+#for index, letter in enumerate(answer):
+   # if letter not in letter_indices:
+  #      letter_indices[letter] = []
+ #   letter_indices[letter].append(index)
+#print(letter_indices)

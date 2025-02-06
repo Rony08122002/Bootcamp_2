@@ -1,0 +1,59 @@
+#1
+#my_favorit_numbre = [2, 4, 6, 8, 10, 12, 14]
+#my_favorit_numbre = my_favorit_numbre + [16, 18]
+#my_favorit_numbre.remove[8]
+#print (my_favorit_numbre)
+#f_favorit_num = [3, 6, 9, 12, 15]
+#our_fav_numbers = (my_favorit_numbre + f_favorit_num)
+#sorted(our_fav_numbers)
+#print (our_fav_numbers)
+
+
+
+#2
+#tuple = (2, 3 ,4)
+#tuple = tuple + (5, 6, 7)
+#print (tuple)
+#you can't change it however you can use the same name 
+
+#3
+#basket = ["Banana", "Apples", "Oranges", "Blueberries"]
+#basket.remove("Banana")
+#basket.remove("Blueberries")
+#basket.insert(2, 'Kiwi')
+#basket.insert(0, 'Apples')
+#APL = basket.count("Apples")
+#basket.clear()
+#print (basket)
+
+#4
+#A float is a non-integer number, such as halves, thirds, and more.
+#An integer consists of whole numbers, such as units, tens, hundreds, and so on.
+#my_list = [x / 2 for x in range(3, 11)]  
+#print(my_list)
+
+#5
+#for i in range(1, 21):
+    #print(i)
+#numbers = list(range(1, 21))
+#for i in range(0, len(numbers), 2):
+    #print(numbers[i])
+
+#6
+#my_name = "Rony"
+#user_input = ""
+
+#while user_input != my_name:
+ #   user_input = input("Who are you??")
+
+#print("hello hello", my_name)
+
+#7
+#favorit_frt =  input('what is your favorite fruit?')
+#print('yours favorite pruits is ' , favorit_frt 'is that correct?')
+#test_fruit = input("Enter a fruit name to check: ")
+#if test_fruit in favorite_fruits:
+#    print("this is one of your favorit fruits")
+#else:
+#    print("intrsting... a new one!")
+

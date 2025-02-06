@@ -1,0 +1,179 @@
+#1
+# #def display_message():
+  #  print("i love DI.")
+#display_message()
+
+#2
+#def favorite_book(title):
+    #print(f"One of my favorite books is {title}.")
+#favorite_book("how to be a hero")
+
+#3
+#def describe_city(city, country="Israel"):
+#    print(f"{city} is in {country}.")
+#describe_city("tokyo", "japan")
+#describe_city("jerusalem")
+
+#4
+#import random
+
+#def compare_numbers(user_number):
+ #   random_number = random.randint(1, 100)
+ #   if user_number == random_number:
+ #       print("Success! You guessed the correct number!")
+ #   else:
+ #       print(f"Fail! Your number: {user_number}, Random number: {random_number}")
+
+#user_input = int(input("Enter a number between 1 and 100: "))
+#compare_numbers(user_input)
+
+#5
+#def make_shirt(size="Large", text="im not filling good"):
+ #   print(f"The size of the shirt is {size} and the text is '{text}'.")
+#make_shirt()
+#make_shirt(size="Medium")
+#make_shirt(size="Small", text="im sick!")
+#make_shirt(text="i need to sleep", size="Extra Large")
+
+#6
+#magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
+#def show_magicians(magicians):
+  #  for magician in magicians:
+ #       print(magician)
+#def make_great(magicians):
+  #  for i in range(len(magicians)):
+ #       magicians[i] = magicians[i] + " the Great"
+#make_great(magician_names)
+#show_magicians(magician_names)
+
+#7
+import random
+def get_random_temp():
+    return random.randint(-10, 40)
+#1#for _ in range(5):
+    #1#print(get_random_temp())
+
+#2#def main():
+  #  temperature = get_random_temp()
+   # print(f"The temperature right now is {temperature} degrees Celsius.")
+#3#
+#import random
+#def get_random_temp():
+ #   return random.randint(-10, 40)
+#def main():
+ #   temp = get_random_temp()
+  #  print(f"The temperature right now is {temp} degrees Celsius.")
+   # if temp < 0:
+    #    print("it is cold out side.")
+    #elif 0 <= temp <= 16:
+    #    print("not to cold .")
+    #elif 16 < temp <= 23:
+    #    print("what a nice day....")
+    #elif 24 <= temp <= 32:
+    #    print("perfect day to surf")
+    #elif 32 < temp <= 40:
+    #    print("to hot.")
+ #4#
+ 
+#import random
+#def get_random_temp(season):
+#    if season == "winter":
+#        return random.randint(-10, 16)
+#    elif season == "spring":
+#        return random.randint(10, 25)
+#    elif season == "summer":
+#        return random.randint(20, 40)
+#    elif season == "autumn" or season == "fall":
+#        return random.randint(10, 22)
+#    else:
+#        print("Invalid season. Defaulting to random temperature between -10 and 40.")
+#        return random.randint(-10, 40)
+
+#def main():
+#    season = input("Enter a season (winter, spring, summer, autumn): ").strip().lower()
+#    temp = get_random_temp(season)
+#    
+#    print(f"The temperature right now in {season} is {temp} degrees Celsius.")
+#    if temp < 0:
+#        print("it is cold out side..")
+#    elif 0 <= temp <= 16:
+#        print("not to cold .")
+#    elif 16 < temp <= 23:
+#        print("what a nice day....")
+#    elif 24 <= temp <= 32:
+#        print("perfect day to surf")
+#    elif 32 < temp <= 40:
+#        print("to hot.")
+
+#8
+def star_wars_quiz():
+    data = [
+        {"question": "What is Baby Yoda's real name?", "answer": "Grogu"},
+        {"question": "Where did Obi-Wan take Luke after his birth?", "answer": "Tatooine"},
+        {"question": "What year did the first Star Wars movie come out?", "answer": "1977"},
+        {"question": "Who built C-3PO?", "answer": "Anakin Skywalker"},
+        {"question": "Anakin Skywalker grew up to be who?", "answer": "Darth Vader"},
+        {"question": "What species is Chewbacca?", "answer": "Wookiee"}
+    ]
+
+    correct_answers = 0
+    wrong_answers = []
+
+    print("Welcome to the Star Wars Quiz!")
+
+    for item in data:
+        user_answer = input(f"{item['question']} ").strip()
+        if user_answer.lower() == item['answer'].lower():
+            print("Correct!")
+            correct_answers += 1
+        else:
+            print(f"Wrong! The correct answer is: {item['answer']}")
+            wrong_answers.append(item["question"])
+
+    print("Quiz Completed!")
+    print(f"You got {correct_answers} out of {len(data)} correct.")
+
+    if correct_answers == len(data):
+        print("Amazing! You're a true Jedi Master!")
+    elif correct_answers >= len(data) // 2:
+        print("Not bad! You have potential, young Padawan.")
+    else:
+        print("You need more training, maybe rewatch Star Wars?")
+
+    if wrong_answers:
+        print("Here are the questions you got wrong:")
+        for q in wrong_answers:
+            print(f"- {q}")
+star_wars_quiz()
+def display_results(correct, incorrect, wrong_answers):
+    print("\n--- Quiz Results ---")
+    print(f"Correct answers: {correct}")
+    print(f"Incorrect answers: {incorrect}")
+
+    if incorrect > 0:
+        print("\nHere are the questions you got wrong:")
+        for item in wrong_answers:
+            print(f"Question: {item['question']}")
+            print(f"Your answer: {item['your_answer']}")
+            print(f"Correct answer: {item['correct_answer']}")
+            print("-" * 30)
+def display_results(correct, incorrect, wrong_answers):
+    print("\n--- Quiz Results ---")
+    print(f"Correct answers: {correct}")
+    print(f"Incorrect answers: {incorrect}")
+
+    if incorrect > 0:
+        print("\nHere are the questions you got wrong:")
+        for item in wrong_answers:
+            print(f"Question: {item['question']}")
+            print(f"Your answer: {item['your_answer']}")
+            print(f"Correct answer: {item['correct_answer']}")
+            print("-" * 30)
+    
+    if incorrect > 3:
+        play_again = input("\nYou got more than 3 wrong answers. Do you want to try again? (yes/no): ").strip().lower()
+        if play_again == 'yes':
+            star_wars_quiz()
+        else:
+            print("Thanks for playing! See you next time.")
+
