@@ -1,0 +1,14 @@
+#1
+#words = input("Enter few words.")
+#words_list = words.split(",")
+#words_list.sort()
+#sorted_words = ",".join(words_list)
+#print(sorted_words)
+
+#2
+#def longest_word(sentence):
+#    words = sentence.split()
+#    longest = max(words, key=len)
+#    return longest
+#
+#print(longest_word('my dog can do backflips and enjoi sigars'))
