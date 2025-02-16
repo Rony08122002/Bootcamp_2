@@ -1,12 +1,12 @@
 #1
 # What is a class?-יצירת מחלקה כל שהיא 
-# What is an instance?-
-# What is encapsulation?-
+# What is an instance?-אוביקת של מחלקה 
+# What is encapsulation?-הוא גישה ישירה לאובייקטים
 # What is abstraction?-
-# What is inheritance?-
-# What is multiple inheritance?-
-# What is polymorphism?-
-# What is method resolution order or MRO?-
+# What is inheritance?-ההעברת נתונים בין מחלקה לאחרת  
+# What is multiple inheritance?-העברת נתונים בין מספר מחלקות
+# What is polymorphism?-שימוש באותו מונח או מילת מפתח לאותם הפעולות
+# What is method resolution order or MRO?-זה הדרך של פייתון לוודא שהיא בודקת פונקציות בסדר נכון במחלקות
 
 
 #2
