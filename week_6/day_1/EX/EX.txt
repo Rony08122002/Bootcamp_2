@@ -1,0 +1,7 @@
+1. deep learning can understand image audio and more. 
+2.its use 2 layers after the input in the layers he predict the data 
+3. the deep learning use more parameters that can help him understand better the information 
+4.overfitting, computational cost, lack of interpretability
+5.deep learning automatically learn relevant featurs from the data,and not manual selection 
+6. each hidden layer find parameters and usfull imformation from the input data to give the final result 
+7.help neural networks find patterns and learn better
