@@ -1,0 +1,8 @@
+ aspect                                 deep learning                                                traditinal ML                               
+ ________________________________________________________________________________________________________________________________________________
+|Feature Engineering	               |Automatically learns features from data                     |Requires manual feature selection           |
+|Data Processing                       |Can directly handle raw, unstructured data                  |Usually requires structured, processed data |	
+|Scalability                           |Effectively scales and performs better with large datasets  |Limited scalability with large datasets     |
+|Pattern Discovery	                   |Discovers complex, subtle patterns                          |Finds simpler explicit patterns             |
+|Demands Computational Requirements    |significant computational power                             |Requires fewer computational resource       |
+|________________________________________________________________________________________________________________________________________________|
